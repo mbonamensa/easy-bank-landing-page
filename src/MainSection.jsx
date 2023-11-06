@@ -7,7 +7,6 @@ import { Slide } from "react-awesome-reveal";
 function MainSection() {
     return (
         <div className="md:px-20 sm:px-20 px-8 lg:px-24 py-24 bg-[#f3f4f6]">
-            <Slide direction="up" triggerOnce={true}>
             <div className="text-center md:text-left">
             <h2 className="text-3xl font-bold">Why choose Easybank?</h2>
             <div className="tex-sm text-[#9698a6] mt-4">
@@ -15,9 +14,6 @@ function MainSection() {
                 <p>Controlyour finances like never before.</p>
             </div>
             </div>
-            </Slide>
-        {/* <div > */}
-        <Slide direction="up" triggerOnce={true}>
             <div className="mt-20 flex flex-col md:flex-row sm:flex-wrap lg:flex-nowrap gap-6 justify-between">
             
                 <div className="mt-6 sm:basis-[45%] text-center md:items-start md:text-left flex flex-col justify-center items-center">
@@ -46,7 +42,6 @@ function MainSection() {
                     your money has never been easier.</p>
                 </div>
             </div>
-        </Slide>
         </div>
     )
 }

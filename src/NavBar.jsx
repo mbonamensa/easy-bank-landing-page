@@ -4,7 +4,7 @@ import logo from "./assets/images/logo.svg"
 
 function NavBar({toggleMenu, handleToggleMenu}) {
   return (
-    <nav className="flex justify-between items-center bg-white h-[65px] md:px-16 sm:px-20 px-8 lg:px-24 z-20 relative">
+    <nav className="h-[80px] flex justify-between sticky top-[0] items-center bg-white md:px-16 sm:px-20 px-8 lg:px-24 z-20 relative">
     {/* <nav className="flex justify-between items-center bg-white p-4 z-20 relative"> */}
         <div className="">
             <img src={logo} alt="easy bank logo" />

@@ -1,6 +1,5 @@
 import desktopBgIntro from "./assets/images/bg-intro-desktop.svg"
 import mobileBgIntro from "./assets/images/bg-intro-mobile.png"
-import mockups from "./assets/images/image-mockups.png"
 
 function Hero() {
   return (
@@ -12,7 +11,7 @@ function Hero() {
               <a className="bg-gradient-to-r from-[#31d35c] hover:opacity-70 text-white to-[#2bb7da] block md:mr-auto text-center w-[180px] py-2 px-3 mt-6 rounded-full" href="">Request Invite</a>
         </div>
 
-        <div className="w-full md:absolute md:top-[-40%] md:right-[-33%] lg:top-[-40%] lg:right-[-33%] max-w-[1077px]">
+        <div className="w-full md:absolute md:top-[-43%] md:right-[-33%] lg:top-[-43%] lg:right-[-33%] max-w-[1077px]">
               <img className="w-full md:hidden lg:hidden" src={mobileBgIntro} alt="" />
               <img className="w-full md:block lg:block hidden" src={desktopBgIntro} alt="" />
         </div>

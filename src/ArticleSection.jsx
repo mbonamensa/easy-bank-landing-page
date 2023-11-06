@@ -2,11 +2,9 @@ import currencyImg from "./assets/images/image-currency.jpg"
 import restaurantImg from "./assets/images/image-restaurant.jpg"
 import planeImg from "./assets/images/image-plane.jpg"
 import confettiImg from "./assets/images/image-confetti.jpg"
-import { Slide } from "react-awesome-reveal";
 
 function ArticleSection() {
     return (
-        <Slide direction="up" triggerOnce={true}>
         <div className="sm:px-20 px-10 lg:px-24 py-24 bg-[#fafafa]">
             <h2 className="text-3xl font-bold mt-10">Latest Articles</h2>
             <div className="mt-4 flex flex-col md:flex-row sm:flex-wrap lg:flex-nowrap gap-6 justify-between">
@@ -56,7 +54,6 @@ function ArticleSection() {
                 </div>
             </div>
         </div>
-        </Slide>
     )
 }
 
