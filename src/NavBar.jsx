@@ -12,11 +12,11 @@ function NavBar({toggleMenu, handleToggleMenu}) {
         <div className="hidden md:block basis-1/3 h-full flex">
         {/* <div className="hidden md:block basis-1/3"> */}
           <ul className="flex items-center justify-between md:gap-3 lg:gap-5 h-full text-[#9698a6]">
-            <a className="h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:100%_3px] bg-bottom" href="#"><li>Home</li></a>
-            <a className="h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:100%_3px] bg-bottom" href="#"><li>About</li></a>
-            <a className="h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:100%_3px] bg-bottom" href="#"><li>Contact</li></a>
-            <a className="h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:100%_3px] bg-bottom" href="#"><li>Blog</li></a>
-            <a className="h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:100%_3px] bg-bottom" href="#"><li>Careers</li></a>
+            <a className="transition-[background] delay-150 duration-300 h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:30%_3px] hover:bg-[length:100%_3px] bg-bottom" href="#"><li>Home</li></a>
+            <a className="transition-[background] delay-150 duration-300 h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:30%_3px] hover:bg-[length:100%_3px] bg-bottom" href="#"><li>About</li></a>
+            <a className="transition-[background] delay-150 duration-300 h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:30%_3px] hover:bg-[length:100%_3px] bg-bottom" href="#"><li>Contact</li></a>
+            <a className="transition-[background] delay-150 duration-300 h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:30%_3px] hover:bg-[length:100%_3px] bg-bottom" href="#"><li>Blog</li></a>
+            <a className="transition-[background] delay-150 duration-300 h-full flex items-center hover:text-[#2d314d] hover:bg-gradient-to-r from-[#31d35c] to-[#2bb7da] bg-no-repeat bg-[length:30%_3px] hover:bg-[length:100%_3px] bg-bottom" href="#"><li>Careers</li></a>
           </ul>
         </div>
         <div className="basis-1/4 md:hidden">
@@ -29,7 +29,7 @@ function NavBar({toggleMenu, handleToggleMenu}) {
         </button>
         </div>
         <div className="hidden md:block">
-          <a className="bg-gradient-to-r from-[#31d35c] to-[#2bb7da] hover:opacity-70 text-sm text-white ml-auto block text-center px-6 py-2 rounded-full" href="">Request Invite</a>
+          <a className="transition ease-in-out delay-100 duration-300 bg-gradient-to-r from-[#31d35c] to-[#2bb7da] hover:opacity-70 hover:scale-105 text-sm text-white ml-auto block text-center px-6 py-2 rounded-full" href="">Request Invite</a>
         </div>
     </nav>
   )

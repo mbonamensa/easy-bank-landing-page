@@ -8,7 +8,8 @@ function Hero() {
               <h1 className="text-4xl">Next generation digital banking</h1>
               <p className="text-sm text-[#9698a6] mt-4">Take your financial life online. Your Easybank account will be a one-stop-shop 
               for spending, saving, budgeting, investing, and much more.</p>
-              <a className="bg-gradient-to-r from-[#31d35c] hover:opacity-70 text-white to-[#2bb7da] block md:mr-auto text-center w-[180px] py-2 px-3 mt-6 rounded-full" href="">Request Invite</a>
+              <a className="transition ease-in-out delay-100 duration-300 bg-gradient-to-r from-[#31d35c] hover:opacity-70 hover:scale-105 text-white to-[#2bb7da] block md:mr-auto text-center w-[180px] py-2 px-3 mt-6 rounded-full" href="">Request Invite</a>
+              
         </div>
 
         <div className="w-full md:absolute md:top-[-43%] md:right-[-33%] lg:top-[-43%] lg:right-[-33%] max-w-[1077px]">

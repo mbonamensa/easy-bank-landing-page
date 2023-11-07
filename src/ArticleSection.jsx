@@ -14,7 +14,7 @@ function ArticleSection() {
                     </div>
                     <div className="p-6">
                         <p className="text-[10px] text-[#9698a6]">By Claire Robinson</p>
-                        <h3 className="mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Receive money in any currency with no fees</a></h3>
+                        <h3 className="transition delay-75 duration-300 ease-in-out mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Receive money in any currency with no fees</a></h3>
                         <p className="mt-3 text-sm text-[#9698a6]">The world is getting smaller and we're becoming more mobile. So why should you be 
                         forced to only receive money in a single …</p>
                     </div>
@@ -25,7 +25,7 @@ function ArticleSection() {
                     </div>
                     <div className="p-6">
                         <p className="text-[10px] text-[#9698a6]">By Wilson Hutton</p>
-                        <h3 className="mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Treat yourself without worrying about money</a></h3>
+                        <h3 className="transition delay-75 duration-300 ease-in-out mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Treat yourself without worrying about money</a></h3>
                         <p className="mt-3 text-sm text-[#9698a6]">Our simple budgeting feature allows you to separate out your spending and set 
                         realistic limits each month. That means you …</p>
                     </div>
@@ -36,7 +36,7 @@ function ArticleSection() {
                     </div>
                     <div className="p-6">
                         <p className="text-[10px] text-[#9698a6]">By Wilson Hutton</p>
-                        <h3 className="mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Take your Easybank card wherever you go</a></h3>
+                        <h3 className="transition delay-75 duration-300 ease-in-out mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Take your Easybank card wherever you go</a></h3>
                         <p className="mt-3 text-sm text-[#9698a6]">We want you to enjoy your travels. This is why we don't charge any fees on purchases 
                     while you're abroad. We'll even show you </p>
                     </div>
@@ -47,7 +47,7 @@ function ArticleSection() {
                     </div>
                     <div className="p-6">
                         <p className="text-[10px] text-[#9698a6]">By Claire Robinson</p>
-                        <h3 className="mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Our invite-only Beta accounts are now live!</a></h3>
+                        <h3 className="transition delay-75 duration-300 ease-in-out mt-3 text-lg font-bold leading-6 hover:text-[#31d35c]"><a href="#">Our invite-only Beta accounts are now live!</a></h3>
                         <p className="mt-3 text-sm text-[#9698a6]">After a lot of hard work by the whole team, we're excited to launch our closed beta. 
                         It's easy to request an invite through the site ...</p>
                     </div>

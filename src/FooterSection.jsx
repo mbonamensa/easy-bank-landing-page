@@ -15,7 +15,7 @@ function FooterSection() {
                 </div>
                 <div className="flex gap-4 mt-8">
                     <a href="#">
-                        <svg className="fill-white hover:fill-[#31d35c]" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <svg className="transition delay-75 duration-300 fill-white hover:fill-[#31d35c] hover:-translate-y-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                         <path d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 
                         19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 
                         1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 
@@ -24,7 +24,7 @@ function FooterSection() {
                         </svg>
                     </a>
                     <a href="#">
-                        <svg className="fill-white hover:fill-[#31d35c]" xmlns="http://www.w3.org/2000/svg" width="21" height="20">
+                        <svg className="transition delay-75 duration-300 fill-white hover:fill-[#31d35c] hover:-translate-y-1" xmlns="http://www.w3.org/2000/svg" width="21" height="20">
                         <path d="M10.333 0c-5.522 0-10 4.478-10 10 0 5.523 
                         4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.701 
                         14.077c-1.752.12-5.653.12-7.402 0C4.735 13.947 4.514 13.018 4.5 
@@ -34,7 +34,7 @@ function FooterSection() {
                         </svg>
                     </a>
                     <a href="#">
-                        <svg className="fill-white hover:fill-[#31d35c]" xmlns="http://www.w3.org/2000/svg" width="21" height="18">
+                        <svg className="transition delay-75 duration-300 fill-white hover:fill-[#31d35c] hover:-translate-y-1" xmlns="http://www.w3.org/2000/svg" width="21" height="18">
                         <path d="M20.667 2.797a8.192 8.192 0 01-2.357.646 
                         4.11 4.11 0 001.804-2.27 8.22 8.22 0 01-2.606.996A4.096 4.096 
                         0 0014.513.873c-2.649 0-4.595 2.472-3.997 5.038a11.648 11.648 
@@ -45,7 +45,7 @@ function FooterSection() {
                         </svg>
                     </a>
                     <a href="#">
-                        <svg className="fill-white hover:fill-[#31d35c]" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                        <svg className="transition delay-75 duration-300 fill-white hover:fill-[#31d35c] hover:-translate-y-1" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                         <path d="M10 0C4.478 0 0 4.477 0 10c0 4.237 2.636 
                         7.855 6.356 9.312-.088-.791-.167-2.005.035-2.868.182-.78 1.172-4.97 
                         1.172-4.97s-.299-.6-.299-1.486c0-1.39.806-2.428 1.81-2.428.852 0 
@@ -59,7 +59,7 @@ function FooterSection() {
                         </svg>
                     </a>
                     <a href="#">
-                        <svg className="fill-white hover:fill-[#31d35c]" xmlns="http://www.w3.org/2000/svg" width="21" height="20">
+                        <svg className="transition delay-75 duration-300 fill-white hover:fill-[#31d35c] hover:-translate-y-1" xmlns="http://www.w3.org/2000/svg" width="21" height="20">
                         <path d="M10.333 1.802c2.67 0 2.987.01 4.042.059 
                         2.71.123 3.976 1.409 4.1 4.099.048 1.054.057 1.37.057 4.04 0 
                         2.672-.01 2.988-.058 4.042-.124 2.687-1.386 3.975-4.099 
@@ -86,23 +86,23 @@ function FooterSection() {
 
             <div className="mt-8 md:mt-0 md:self-stretch">
                 <ul className="flex flex-col items-center justify-between gap-3 h-[100%]">
-                    <li className="md:self-start hover:text-[#31d35c]"><a href="#">About</a></li>
-                    <li className="md:self-start hover:text-[#31d35c]"><a href="#">Contact</a></li>
-                    <li className="md:self-start hover:text-[#31d35c]"><a href="#">Blog</a></li>
+                    <li className="transition delay-75 duration-300 ease-in-out md:self-start hover:text-[#31d35c]"><a href="#">About</a></li>
+                    <li className="transition delay-75 duration-300 ease-in-out md:self-start hover:text-[#31d35c]"><a href="#">Contact</a></li>
+                    <li className="transition delay-75 duration-300 ease-in-out md:self-start hover:text-[#31d35c]"><a href="#">Blog</a></li>
                 </ul>
             </div>
 
             <div className="mt-3 md:mt-0 md:self-stretch">
                 <ul className="flex flex-col items-center justify-between gap-3 h-[100%]">
-                    <li className="md:self-start hover:text-[#31d35c]"><a href="#">Careers</a></li>
-                    <li className="md:self-start hover:text-[#31d35c]"><a href="#">Support</a></li>
-                    <li className="md:self-start hover:text-[#31d35c]"><a href="#">Privacy Policy</a></li>
+                    <li className="transition delay-75 duration-300 ease-in-out md:self-start hover:text-[#31d35c]"><a href="#">Careers</a></li>
+                    <li className="transition delay-75 duration-300 ease-in-out md:self-start hover:text-[#31d35c]"><a href="#">Support</a></li>
+                    <li className="transition delay-75 duration-300 ease-in-out md:self-start hover:text-[#31d35c]"><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
 
             <div>
                 <div className="mt-8 flex justify-center">
-                    <a className="text-sm bg-gradient-to-r from-[#31d35c] to-[#2bb7da] hover:opacity-70 text-white md:ml-auto block text-center w-[150px] py-2 rounded-full" href="">Request Invite</a>
+                    <a className="transition ease-in-out delay-100 duration-300 text-sm bg-gradient-to-r from-[#31d35c] to-[#2bb7da] hover:opacity-70 hover:scale-105 text-white md:ml-auto block text-center w-[150px] py-2 rounded-full" href="">Request Invite</a>
                 </div>
                 <p className="mt-6 text-xs">© Easybank. All Rights Reserved</p>
             </div>
