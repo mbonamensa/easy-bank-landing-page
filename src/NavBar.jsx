@@ -20,12 +20,15 @@ function NavBar({toggleMenu, handleToggleMenu}) {
           </ul>
         </div>
         <div className="basis-1/4 md:hidden">
-        <button onClick={handleToggleMenu} className="ml-auto block">
-            { toggleMenu ?
+        <button onClick={handleToggleMenu} className="ml-auto flex items-center justify center relative">
+            <img className={`${!toggleMenu ? "opacity-100 animate-rotateL" : "opacity-0"} transition ease-in-out delay-150 duration-300`} src={hamburger} alt="hamburger menu" />
+            <img className={`${!toggleMenu ? "opacity-0" : "opacity-100 animate-rotateR"} absolute transition ease-in-out delay-150 duration-300`} src={closeBtn} alt="x button" />
+
+            {/* { toggleMenu ?
               <img className="" src={closeBtn} alt="x button" />
               :
               <img className="" src={hamburger} alt="hamburger menu" />
-            }
+            } */}
         </button>
         </div>
         <div className="hidden md:block">

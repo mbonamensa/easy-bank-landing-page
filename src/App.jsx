@@ -10,9 +10,13 @@ import { Fade } from "react-awesome-reveal";
 
 function App () {
     const [toggleMenu, setToggleMenu] = useState(false)
+    const [closeMobileMenu, setCloseMobileMenu] = useState(false)
 
     function handleToggleMenu() {
         setToggleMenu(prevState => !prevState)
+        setTimeout(() => {            
+            toggleMenu === false ? setCloseMobileMenu(true) : setCloseMobileMenu(false)
+        }, 1000);
     }
 
     return (
@@ -34,18 +38,16 @@ function App () {
                         <FooterSection />
                     </footer>
                 </div>
-                    <div onClick={handleToggleMenu} className={`absolute top-[0] ${toggleMenu ? "visible" : "hidden"} transition-all left-[0] h-[100%] w-[100%] z-10 bg-[#000000a6]`}>
-                        <MobileMenu />
-                    </div>
-
-                {/* {toggleMenu &&
-                    <div onClick={handleToggleMenu} className="absolute top-[0] left-[0] h-[100%] w-[100%] z-10 bg-[#000000a6]">
-                        <MobileMenu />
-                    </div>
-                } */}
+                <div onClick={handleToggleMenu} className={`absolute top-[0] ${toggleMenu ? "block animate-easeIn" : "opacity-0 animate-easeOut"} ${!closeMobileMenu && "hidden" } left-[0] h-[100%] w-[100%] z-10 bg-[#000000a6]`}>
+                    <MobileMenu />
+                </div>                
+                {/* <div onClick={handleToggleMenu} className={`absolute top-[0] ${toggleMenu ? "visible" : "hidden"} transition ease-in-out delay-150 duration-300 left-[0] h-[100%] w-[100%] ${!toggleMenu ? "z-0" : "z-10"} bg-[#000000a6]`}>
+                    <MobileMenu />
+                </div>                 */}
             </div>
         </Fade>
     )
+    // ${toggleMenu ? "opacity-100" : "opacity-0"}
 }
 
 export default App
