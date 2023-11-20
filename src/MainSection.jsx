@@ -2,7 +2,6 @@ import onBoardingIcon from "./assets/images/icon-onboarding.svg"
 import apiIcon from "./assets/images/icon-api.svg"
 import budgetingIcon from "./assets/images/icon-budgeting.svg"
 import onlineIcon from "./assets/images/icon-online.svg"
-import { Slide } from "react-awesome-reveal";
 
 function MainSection() {
     return (

@@ -10,16 +10,24 @@ import { Fade } from "react-awesome-reveal";
 
 function App () {
     const [toggleMenu, setToggleMenu] = useState(false)
+    const [closeMobileMenu, setCloseMobileMenu] = useState(true)
 
-    function handleToggleMenu() {
-        setToggleMenu(prevState => !prevState)
+    function openMenu() {
+        setToggleMenu(true)
+        setCloseMobileMenu(false)
+    }
+    function closeMenu() {
+        setToggleMenu(false)
+        setTimeout(() => {               
+            setCloseMobileMenu(true)
+        }, 850);
     }
 
     return (
         <Fade>
             <div className="text-[#2d314d] font-primary md:overflow-x-clip relative">
                 <div className="my-0 mx-auto">
-                    <NavBar toggleMenu={toggleMenu} handleToggleMenu={handleToggleMenu}/>
+                    <NavBar toggleMenu={toggleMenu} openMenu={openMenu} closeMenu={closeMenu}/>
                     <header className="relative">
                         <Hero />
                         <div className="h-[530px] max-w-[600px] md:w-[60%] absolute top-[-90px] right-[-102px]">
@@ -34,15 +42,9 @@ function App () {
                         <FooterSection />
                     </footer>
                 </div>
-                    <div onClick={handleToggleMenu} className={`absolute top-[0] ${toggleMenu ? "visible" : "hidden"} transition-all left-[0] h-[100%] w-[100%] z-10 bg-[#000000a6]`}>
-                        <MobileMenu />
-                    </div>
-
-                {/* {toggleMenu &&
-                    <div onClick={handleToggleMenu} className="absolute top-[0] left-[0] h-[100%] w-[100%] z-10 bg-[#000000a6]">
-                        <MobileMenu />
-                    </div>
-                } */}
+                <div onClick={closeMenu} className={`fixed top-[0] ${toggleMenu ? "opacity-100 animate-easeIn" : "opacity-0 animate-easeOut"} ${closeMobileMenu && "hidden" } left-[0] h-[100%] w-[100%] z-10 bg-[#000000a6]`}>
+                    <MobileMenu />
+                </div>                
             </div>
         </Fade>
     )
