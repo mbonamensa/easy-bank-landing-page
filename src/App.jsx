@@ -9,7 +9,7 @@ import mockups from "./assets/images/image-mockups.png"
 import { Fade } from "react-awesome-reveal";
 
 function App () {
-    const [toggleMenu, setToggleMenu] = useState(false)
+    const [toggleMenu, setToggleMenu] = useState(undefined)
     const [closeMobileMenu, setCloseMobileMenu] = useState(true)
 
     function openMenu() {

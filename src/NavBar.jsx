@@ -18,11 +18,11 @@ function NavBar({toggleMenu, openMenu, closeMenu}) {
           </ul>
         </div>
         <div className="basis-1/4 md:hidden relative">
-        <button onClick={openMenu} className={`${toggleMenu ? "invisible" : "visible animate-rotateL"} transition ease-in-out delay-150 duration-300 ml-auto flex items-center justify center relative`}>
-            <img className={``} src={hamburger} alt="hamburger menu" />
+        <button onClick={openMenu} className={`${toggleMenu ? "invisible" : toggleMenu === undefined ? "" : "visible animate-rotateL"} transition ease-in-out delay-150 duration-300 ml-auto flex items-center justify center relative`}>
+            <img src={hamburger} alt="hamburger menu" />
         </button>
-        <button onClick={closeMenu} className={`${toggleMenu ? "visible animate-rotateR" : "invisible"} transition ease-in-out delay-150 duration-300ml-auto flex items-center justify center absolute right-[0] top-[0]`}>
-            <img className={``} src={closeBtn} alt="x button" />
+        <button onClick={closeMenu} className={`${toggleMenu ? "visible animate-rotateR": "invisible"} transition ease-in-out delay-150 duration-300ml-auto flex items-center justify center absolute right-[0] top-[0]`}>
+            <img src={closeBtn} alt="x button" />
         </button>
         </div>
         <div className="hidden md:block">
